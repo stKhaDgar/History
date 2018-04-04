@@ -24,6 +24,10 @@ namespace History
                 string ournames = yourname + hername;
                 return ournames;
             }
+            int lol()
+            {
+                return 2;
+            }
         }
     }
 }
