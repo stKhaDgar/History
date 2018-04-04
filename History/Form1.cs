@@ -19,9 +19,10 @@ namespace History
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string name(string yourname)
+            string name(string yourname, string hername)
             {
-                return yourname;
+                string ournames = yourname + hername;
+                return ournames;
             }
         }
     }
