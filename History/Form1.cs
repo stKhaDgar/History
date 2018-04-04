@@ -19,9 +19,9 @@ namespace History
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int lol()
+            int lol(int some)
             {
-                return 2;
+                return some+5;
             }
         }
     }
